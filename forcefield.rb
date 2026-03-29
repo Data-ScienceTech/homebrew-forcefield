@@ -1,10 +1,10 @@
 class Forcefield < Formula
   include Language::Python::Virtualenv
 
-  desc "AI security SDK -- prompt injection detection, PII redaction, LLM output moderation"
+  desc "AI security SDK -- prompt injection detection, PII redaction, tool governance, constitution policies"
   homepage "https://datasciencetech.ca/en/python-sdk"
-  url "https://files.pythonhosted.org/packages/04/50/57f2e02bed36bc32e70b28140d007a83ab8c3d25a2acac65a16e68c1f535/forcefield-0.4.0.tar.gz"
-  sha256 "f96574e76883f9d72649441957b05eb57d28b43d9c7d79a2ad28f232aa418357"
+  url "https://files.pythonhosted.org/packages/source/f/forcefield/forcefield-0.7.2.tar.gz"
+  sha256 "9e30bb59d167a6f3dc7dbbab67739a8ad94294f86e7824ba3b4f0b7e2cab7b35"
   license "Apache-2.0"
 
   depends_on "python@3.12"
